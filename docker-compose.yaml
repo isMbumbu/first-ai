@@ -1,0 +1,7 @@
+services:
+  docker-model-runner:
+    provider:
+      type: model
+      options:
+        model: ai/gpt-oss
+  
